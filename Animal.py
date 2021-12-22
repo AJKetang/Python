@@ -5,6 +5,7 @@ class Animal:
 
     def run(self):
         print("Let's run!")
+        print("My name is : " + self.name)
 
 
 ##Construct animal object: animalA##
@@ -13,5 +14,7 @@ animalA = Animal()
 print(animalA.name)
 ##print animalA's feets
 print(animalA.feets)
+##Make animalA run
+animalA.run()
 
 
